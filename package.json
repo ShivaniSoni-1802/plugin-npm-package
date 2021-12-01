@@ -1,6 +1,6 @@
 {
 	"name": "@graphql-codegen/typescript",
-	"version": "2.4.1",
+	"version": "2.4.2",
 	"description": "Plugin for code Graphql Code Generator, to translate gql enums into smart enums",
 	"author": "WEB DEV",
 	"type": "module",
