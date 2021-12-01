@@ -1,6 +1,6 @@
 {
 	"name": "graphql-codegen-ts-plugin",
-	"version": "1.0.5",
+	"version": "2.2.3",
 	"description": "Plugin for code Graphql Code Generator, to translate gql enums into smart enums",
 	"author": "Shivani Soni",
 	"type": "module",
