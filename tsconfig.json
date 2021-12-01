@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "ES2021",
+		"lib": ["ES2021", "dom"],
+
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"importHelpers": true,
+		"experimentalDecorators": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"moduleResolution": "Node",
+		"emitDecoratorMetadata": true,
+		"sourceMap": true,
+		"declaration": true,
+		"noImplicitThis": true,
+		"alwaysStrict": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+
+		"rootDir": "src",
+		"outDir": "./build",
+		"baseUrl": ".",
+	},
+	"include": ["./"],
+	"exclude": ["node_modules", "build"]
+}

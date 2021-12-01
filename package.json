@@ -11,6 +11,9 @@
 	},
 	"license": "MIT",
 	"scripts": {
+		"build": "tsc --project .",
+		"deploy:tsn": "ts-node ./src/index.ts",
+		"tsc": "tsc --build",
 		"lint": "eslint **/*.ts",
 		"test": "jest --no-watchman --config ../../../../jest.config.js",
 		"prepack": "bob prepack"
@@ -24,7 +27,8 @@
 		"auto-bind": "^5.0.1",
 		"cypress": "^9.1.0",
 		"graphql": "^16.0.1",
-		"tslib": "~2.3.0"
+		"tslib": "~2.3.0",
+		"typescript": "^4.5.2"
 	},
 	"peerDependencies": {
 		"graphql": "^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0"
